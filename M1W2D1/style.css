@@ -1,0 +1,88 @@
+.card{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.save-button {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    transform: translateY(-170px);
+    transition: transform 0.4s ease-in;
+
+}
+
+.west-wings {
+    background-color: rgb(203, 203, 203);
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;   
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+.west-wings ion-icon {
+    transform: rotate(-45deg);
+
+}
+
+.btn-circle {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(203, 203, 203);
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 15px;
+    position: absolute;
+    bottom: 10px;
+    transform: translateY(170px);
+    transition: transform .4s ease-in;
+}
+
+.card:hover .save-button {
+    transform: translateY(0);
+
+}
+
+.card:hover .btn-container {
+    transform: translateY(0);
+}
+
+.overlay {
+    background-color: rgb(0, 0 , 0, 0.6);
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
