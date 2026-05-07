@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Zone</title>
+
+    <!------ era solo per fare una prova e per vedere come 
+     funzionava anche se nell'esercizio non viene detto di farlo ------>
+
+    <style>
+        .link-amazon {
+    color: orange;
+    font-weight: bold;
+    }
+
+
+    .add-class-img {
+    visibility: hidden;
+    }
+    
+    button {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    }
+    
+    </style>
+
+</head>
+
+<body>
+    <h1>Phone Zone</h1>
+    
+    <table border="1" width="100%">
+        <tr>
+            <th>Nome Prodotto</th>
+            <th>Prezzo</th>
+            <th>Immagine</th>
+            <th>Titolo</th>
+            <th>Descrizione</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>iPhone 17</td>
+            <td class="prezzo" >999€</td>
+            <td><img src="./asset/iphone17.jpg" alt="immagine-iphone-17" width="100"></td>
+            <td>iPhone 17</td>
+            <td>Il top di gamma Apple con chip A19</td>
+            <td><a href="https://www.amazon.it/s?k=iphone+17">Scopri di più su Amazon</a></td>
+    
+        </tr>
+        <tr>
+            <td>Samsung Galaxy S25</td>
+            <td class="prezzo" >1200€</td>
+            <td><img src="./asset/samsung.jpg" alt="immagine-samsung" width="100"></td>
+            <td>Samsung Galaxy S25</td>
+            <td>Il migliore Android del 2025</td>
+            <td><a href="https://www.amazon.it/s?k=samsung+galaxy+s25">Scopri di più su Amazon</a></td>
+        </tr>
+    
+        <tr>
+            <td>Google Pixel 9</td>
+            <td class="prezzo" >850€</td>
+            <td><img src="./asset/google-pixel-9.jpg" alt="immagine-google-pixel-9" width="100"></td>
+            <td>Google Pixel 9</td>
+            <td>Il camera phone per eccellenza</td>
+            <td><a href="https://www.amazon.it/s?k=google+pixel+9">Scopri di più su Amazon</a></td>
+        </tr>
+        <tr>
+            <td>Xiaomi 15</td>
+            <td class="prezzo" >345€</td>
+            <td><img src="./asset/xiami15.jpeg" alt="immagine-xiami-15" width="100"></td>
+            <td>Xiaomi 15</td>
+            <td>Potenza e risparmio</td>
+            <td><a href="https://www.amazon.it/s?k=xiaomi+15">Scopri di più su Amazon</a></td>
+        </tr>
+        <tr>
+            <td>OnePlus 13</td>
+            <td class="prezzo" >869€</td>
+            <td><img src="./asset/oneplus.jpeg" alt="immagine-one-plus-13" width="100"></td>
+            <td>OnePlus 13</td>
+            <td>Veloce e fluido</td>
+            <td><a href="https://www.amazon.it/s?k=oneplus+13">Scopri di più su Amazon</a></td>
+        </tr>
+    
+        </tr>
+    </table>
+
+    <!-- non era richiesto dall'esercizio, ma volevo applicarlo 
+    per mettere in atto quello che ha spiegato il prof a lezione -->
+
+    <button onclick="addRemove()">Mostra/Nascondi immagini</button>
+    <button onclick="changeColor()">Cambia colore prezzi</button>
+
+    <!------------------------------------------------------------->
+
+    <p>Lascia un commento!</p>
+    <textarea name="commento" id="commento"></textarea>
+
+    <footer>
+        <h2>Phone Zone</h2>
+        <h3>Dove ci trovi</h3>
+        <p>Via trottolino amoroso dudu dada - 19</p>
+    </footer>
+
+
+<script src="./script.js"></script>
+</body>
+
+</html>
