@@ -20,8 +20,8 @@ Esempio: let x;
 Null
 Rappresenta l'assenza intenzionale di un valore. Si usa per indicare esplicitamente che una variabile deve essere "vuota".
 Esempio: let datoMancante = null;
-*/
 
+*/
 
 
 /* ESERCIZIO 2
