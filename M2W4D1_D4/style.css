@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #0a1628, #1a3a6b, #0d4a5a);  /* Questo l'ho cercato perche non mi ricordavo come si faceva... :) */
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    width: 900px;
+}
+
+.logo {
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+h3 {
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+.add-ruolo, .add-city {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #1a3a6b;
+    color: white;
+    cursor: pointer;
+}
+
+#risultati {
+     margin-top: 20px;
+    width: 900px;
+    color: black;
+}
+
+#risultati table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#risultati th {
+    background-color: #1a3a6b;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+#risultati td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+p {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+ion-icon {
+    color: #2dd4bf;
+}
+
+.input-icona {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    background: white;
+    width: 100%; 
+}
+
+.input-icona input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+}
