@@ -1,0 +1,182 @@
+body {
+  background-color: #141414 !important;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+nav.navbar.bg-black {
+    background-color: #141414 !important;
+}
+
+.navbar-logo {
+  height: 40px;
+  display: block;
+}
+
+.adjust-logo {
+  margin-left: -8px; 
+}
+
+.navbar-nav .nav-link {
+  color: #e5e5e5 !important;
+  font-size: 0.85rem;
+  margin-right: 0.8rem;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #b3b3b3 !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar-icons a {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-left: 1.2rem;
+  text-decoration: none;
+}
+
+.brand-kids {
+  font-size: 0.8rem;
+}
+
+.navbar-avatar {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.arrow-avatar {
+  font-size: 0.6rem;
+  color: #fff;
+}
+
+.row .col img {
+  border-radius: 4px;
+  cursor: pointer;
+  display: block; 
+  width: 100%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  will-change: transform; 
+}
+
+.row .col img:hover {
+  transform: scale(1.10) !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8) !important;
+  position: relative;
+  z-index: 99;
+}
+
+.tvshows-title {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.btn-genres {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.4rem 1.2rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-genres:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+}
+
+.btn-arrow {
+  font-size: 0.65rem;
+}
+
+.btn-group .btn-view {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 42px;
+  height: 36px;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 0; 
+}
+
+.btn-group .btn-view:first-child {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.btn-group .btn-view:last-child {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-left: -1px; 
+}
+
+.btn-view:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+}
+
+.btn-view i {
+  font-size: 1.1rem;
+}
+
+
+.footer-container {
+  max-width: 980px;
+  width: 100%;
+}
+
+footer {
+  color: #808080;
+}
+
+.footer-socials a {
+  color: #808080;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-socials a:hover {
+  color: #fff;
+}
+
+.footer-links a {
+  color: #808080;
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: inline-block;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #808080;
+}
+
+.footer-btn {
+  color: #808080;
+  border-color: #808080;
+  font-size: 0.75rem;
+  padding: 0.4rem 0.6rem;
+  transition: all 0.2s ease;
+}
+
+.footer-btn:hover {
+  color: #fff;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.footer-copyright {
+  font-size: 0.7rem;
+}
